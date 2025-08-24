@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Verdana, sans-serif;
+}
+
+body {
+  background-color: #080914;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #f1f1f1;
+  height: 100vh;
+}
+
+#clock,
+#myDate {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+}
+
+#clock {
+  font-size: 60px;
+  background: linear-gradient(
+    180deg,
+    rgba(1, 32, 170, 0.5),
+    rgba(255, 0, 242, 0)
+  );
+  text-align: center;
+}
+
+#myDate {
+  font-size: 30px;
+  background: linear-gradient(
+    360deg,
+    rgba(252, 54, 20, 0.5),
+    rgba(255, 0, 242, 0)
+  );
+  line-height: 2;
+}
